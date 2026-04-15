@@ -58,7 +58,7 @@ size:
 
 Actions can have either a `cost` or a `type`:
 
-- **cost**: Numeric action cost (displayed with ◆ symbols)
+- **cost**: Numeric action cost
 - **type**: Text description like "Special", or "Partnered (Partner Name)"
 
 ## Development
