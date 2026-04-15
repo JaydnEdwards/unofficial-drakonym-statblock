@@ -1,18 +1,18 @@
 import {App, PluginSettingTab, Setting} from "obsidian";
-import MyPlugin from "./main";
+import type DrakonymStatBlocks from "./main";
 
-export interface MyPluginSettings {
+export interface DrakonymSettings {
 	mySetting: string;
 }
 
-export const DEFAULT_SETTINGS: MyPluginSettings = {
+export const DEFAULT_SETTINGS: DrakonymSettings = {
 	mySetting: 'default'
 }
 
-export class SampleSettingTab extends PluginSettingTab {
-	plugin: MyPlugin;
+export class DrakonymSettingTab extends PluginSettingTab {
+	plugin: DrakonymStatBlocks;
 
-	constructor(app: App, plugin: MyPlugin) {
+	constructor(app: App, plugin: DrakonymStatBlocks) {
 		super(app, plugin);
 		this.plugin = plugin;
 	}
