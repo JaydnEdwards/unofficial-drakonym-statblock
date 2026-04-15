@@ -2,6 +2,9 @@
 
 An Obsidian plugin for rendering TTRPG stat blocks from YAML code blocks. Designed for Drakonym.
 
+This is an independent product published under the Drakonym Creator License (DCL) and is not affiliated with or endorsed by Crossed Paths Press. 
+Drakonym™, Akeroth™, and the Runebinder™ System are © 2025 Crossed Paths Press.
+
 ## Usage
 
 Create a code block with the `rbs` identifier and define your stat block in YAML:
