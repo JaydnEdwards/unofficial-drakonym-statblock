@@ -24,6 +24,8 @@ export interface StatBlock {
 	wants?: string;
 	fears?: string;
 	immunity?: string;
+	resistance?: string;
+	weakness?: string;
 	perks?: Perk[];
 	actions?: Action[];
 }
